@@ -104,5 +104,124 @@ main{
     border-radius: 48px;
     height: 330px;
     width: 400px;
-    padding: o 159px 116px 141px;
+    
 }
+/* user style */
+.user-color{
+    color: rgba(78, 71, 255, 1);
+}
+.users-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #252432;
+    text-align:center;
+    padding-top: none;
+}
+.user-header{
+    font-size: 50px;
+
+}
+.users-description{
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+
+}
+.user-productive{
+    width: 1140px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    background-color: rgba(78, 71, 255, 0.1);
+}
+/* user says style */
+.user-says{
+    width: 1140px;
+    height: 342px;
+    margin-top: 137px;
+    box-sizing: border-box;
+}
+.user-says-container{
+
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px rgb(154, 148, 148);
+}
+.user-says-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(42, 36, 50, 1);
+}
+
+.user-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.user-img img{
+    border-radius: 100%;
+}
+
+.user-says-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* focus-style */
+.focus-container{
+    height: 696px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 137px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 3px rgb(154, 148, 148);
+    border-radius: 10px;
+    
+}
+
+.focus-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    /* text-align: center; */
+    /* padding-bottom: 71px; */
+}
+.focus-description{
+    text-align: center;
+}
+.focus-button{
+    height: 24px;
+    width: 123px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    /* padding: 20px 50px; */
+}
+.focus-container img{
+    height: 364px;
+    width: 840px;
+    border-radius: 48px;
+}
+
+/*  text-align: center;
+    width: 800px;
+    height: 237px;
+    border-top: 399px;
+    font-weight: 600px;
+    font-size: 35px;
+    color: #252432; */
